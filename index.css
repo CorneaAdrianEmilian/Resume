@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -99,3 +100,106 @@ margin: 0;
 
 
 
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: "Hanken Grotesk", Arial, sans-serif;
+background-color:#0a0f24;
+color: #cbd5e1;
+height: 100vh;
+}
+
+main
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 2000px;
+}
+
+header
+{
+display:flex;
+position: sticky;
+top: 15px;
+column-gap: 20px;
+justify-content: center;
+width: 100%;
+background-color: #282828F2;
+}
+
+header > span
+{
+position: relative;
+font-size: 1.5rem;
+cursor: pointer;
+font-weight: bold;
+}
+
+
+header > span:hover
+{
+  color: #FF4D5A;
+  transition: color .5s ease;
+}
+
+header > span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px;
+  width: 100%;
+  background: #06b6d4;
+  
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+header > span:hover::after
+{
+transform: scaleX(1);
+}
+
+.profile_container
+{
+display: flex;
+margin-block: 30px;
+column-gap: 200px;
+align-items: center;
+max-width: 800px;
+}
+
+.profile_picture
+{
+  height: 100px;
+}
+
+.profile_text_container
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.profile_greetings, .profile_description
+{
+margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 11b5e12517cbf8ba8edccb421beea3a9ae870b45
