@@ -9,5 +9,6 @@ export default function Header()
         <span>Skills</span>
         <span>Projects</span>
     </header>
+    
   )
 }

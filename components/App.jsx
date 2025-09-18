@@ -10,5 +10,6 @@ return(
     <Header/>
     <Profile picture={profile.picture} greetings={profile.greetings} description ={profile.description}/>
   </main>
+  /* test*/ 
 )
 }
